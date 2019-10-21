@@ -1,0 +1,73 @@
+{
+  "type": "widget",
+  "name": "sd-home-page",
+  "version": "4.10.4",
+  "revision": null,
+  "path": "application\/widgets\/sd-home-page",
+  "repository": null,
+  "sku": null,
+  "date": "Thu, 29 Aug 2019 07:46:04 +0000",
+  "title": "SD Home Page",
+  "description": "SD Home Page",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Stars Developer"
+  ],
+  "meta": {
+    "date": "Thu, 29 Aug 2019 07:46:04 +0000",
+    "title": "SD Home Page",
+    "description": "SD Home Page",
+    "developer": null,
+    "authors": [
+      "Stars Developer"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/sd-home-page": {
+      "type": "directory",
+      "path": "application\/widgets\/sd-home-page",
+      "structure": [
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 132,
+          "sha1": "bc246374b8516f16cbf20f2be4e882ca00afdc28"
+        },
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 39,
+          "sha1": "27433f933cb01398aaddbbeb3e4d8b3bc9d5ba7d"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 669,
+          "sha1": "52d700bf2e945cc665eed1bf0f3c7d492b21f042"
+        }
+      ]
+    }
+  }
+}

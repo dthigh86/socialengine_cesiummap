@@ -1,0 +1,231 @@
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: f52e18
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 0b3c5e
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 8c3a5e
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 505b3a
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 89af91
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: a9173a
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 9dad54
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 8fad3a
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: e13470
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 4bdb6f
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 3a44d3
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 843807
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 8a3dcf
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 8829cb
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 78e766
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: df4c69
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 4d7000
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 3f053c
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 7ed302
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: b4ef30
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+
+[8] Unknown: &quot;_useSsl&quot; is returned from __sleep multiple times (Unknown) [0]
+Error Code: 9034a3
+Stack trace:
+#1 {main}
+
+#0 /home/threatfo/public_html/application/libraries/Zend/Log/Writer/Abstract.php(88): Zend_Log_Writer_Stream->_write(Array)
+#1 /home/threatfo/public_html/application/libraries/Zend/Log.php(464): Zend_Log_Writer_Abstract->write(Array)
+#2 /home/threatfo/public_html/application/libraries/Engine/Api.php(689): Zend_Log->log('[8] Unknown: &q...', 5)
+#3 [internal function]: Engine_Api::handleError(8, 'Unknown: &quot;...', 'Unknown', 0, NULL)
+#4 {main}
+

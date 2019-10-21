@@ -1,0 +1,133 @@
+2019-08-29T07:44:23+00:00 WARN (4): [2] stat(): stat failed for C:\wamp64\www\threat-forward\application\packages\widget-sd-landing-page-4.10.4.json (C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 311b94
+Stack trace:
+#0 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\wamp64\www\threat-forward\app...')
+#1 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\wamp64\www\threat-forward\app...')
+#2 C:\wamp64\www\threat-forward\install\controllers\ManageController.php(881): Engine_Vfs_Adapter_Abstract->info('C:\wamp64\www\threat-forward\app...')
+#3 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\wamp64\www\threat-forward\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 C:\wamp64\www\threat-forward\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\wamp64\www\threat-forward\install\index.php(92): Zend_Application->run()
+#9 {main}
+
+2019-08-29T07:44:23+00:00 WARN (4): [2] stat(): stat failed for C:\wamp64\www\threat-forward\application\widgets\sd-landing-page\Controller.php (C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: ae1842
+Stack trace:
+#0 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\wamp64\www\threat-forward\app...')
+#1 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\wamp64\www\threat-forward\app...')
+#2 C:\wamp64\www\threat-forward\install\controllers\ManageController.php(881): Engine_Vfs_Adapter_Abstract->info('C:\wamp64\www\threat-forward\app...')
+#3 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\wamp64\www\threat-forward\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 C:\wamp64\www\threat-forward\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\wamp64\www\threat-forward\install\index.php(92): Zend_Application->run()
+#9 {main}
+
+2019-08-29T07:44:23+00:00 WARN (4): [2] stat(): stat failed for C:\wamp64\www\threat-forward\application\widgets\sd-landing-page (C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 6e7fc2
+Stack trace:
+#0 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\wamp64\www\threat-forward\app...')
+#1 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\wamp64\www\threat-forward\app...')
+#2 C:\wamp64\www\threat-forward\install\controllers\ManageController.php(881): Engine_Vfs_Adapter_Abstract->info('C:\wamp64\www\threat-forward\app...')
+#3 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\wamp64\www\threat-forward\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 C:\wamp64\www\threat-forward\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\wamp64\www\threat-forward\install\index.php(92): Zend_Application->run()
+#9 {main}
+
+2019-08-29T07:47:48+00:00 WARN (4): [2] stat(): stat failed for C:\wamp64\www\threat-forward\application\packages\widget-sd-home-page-4.10.4.json (C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: eb307d
+Stack trace:
+#0 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\wamp64\www\threat-forward\app...')
+#1 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\wamp64\www\threat-forward\app...')
+#2 C:\wamp64\www\threat-forward\install\controllers\ManageController.php(881): Engine_Vfs_Adapter_Abstract->info('C:\wamp64\www\threat-forward\app...')
+#3 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\wamp64\www\threat-forward\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 C:\wamp64\www\threat-forward\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\wamp64\www\threat-forward\install\index.php(92): Zend_Application->run()
+#9 {main}
+
+2019-08-29T07:47:48+00:00 WARN (4): [2] stat(): stat failed for C:\wamp64\www\threat-forward\application\widgets\sd-home-page\Controller.php (C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: 27a673
+Stack trace:
+#0 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\wamp64\www\threat-forward\app...')
+#1 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\wamp64\www\threat-forward\app...')
+#2 C:\wamp64\www\threat-forward\install\controllers\ManageController.php(881): Engine_Vfs_Adapter_Abstract->info('C:\wamp64\www\threat-forward\app...')
+#3 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\wamp64\www\threat-forward\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 C:\wamp64\www\threat-forward\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\wamp64\www\threat-forward\install\index.php(92): Zend_Application->run()
+#9 {main}
+
+2019-08-29T07:47:48+00:00 WARN (4): [2] stat(): stat failed for C:\wamp64\www\threat-forward\application\widgets\sd-home-page (C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php) [77]
+Error Code: e164ee
+Stack trace:
+#0 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\System.php(77): stat('C:\wamp64\www\threat-forward\app...')
+#1 C:\wamp64\www\threat-forward\application\libraries\Engine\Vfs\Adapter\Abstract.php(224): Engine_Vfs_Adapter_System->stat('C:\wamp64\www\threat-forward\app...')
+#2 C:\wamp64\www\threat-forward\install\controllers\ManageController.php(881): Engine_Vfs_Adapter_Abstract->info('C:\wamp64\www\threat-forward\app...')
+#3 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Action.php(516): ManageController->permsAction()
+#4 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Dispatcher\Standard.php(308): Zend_Controller_Action->dispatch('permsAction')
+#5 C:\wamp64\www\threat-forward\application\libraries\Zend\Controller\Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 C:\wamp64\www\threat-forward\application\libraries\Zend\Application\Bootstrap\Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#7 C:\wamp64\www\threat-forward\application\libraries\Zend\Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#8 C:\wamp64\www\threat-forward\install\index.php(92): Zend_Application->run()
+#9 {main}
+
+2019-08-30T04:33:32+00:00 WARN (4): [8192] The each() function is deprecated. This message will be suppressed on further calls (/home/threatfo/public_html/application/libraries/PEAR/PEAR.php) [785]
+Error Code: 5bc8da
+Stack trace:
+#0 /home/threatfo/public_html/application/libraries/PEAR/PEAR.php(785): each(Array)
+#1 (unknown file)(0): _PEAR_call_destructors()
+#2 {main}
+
+2019-09-05T07:56:39+00:00 WARN (4): [8192] The each() function is deprecated. This message will be suppressed on further calls (/home/threatfo/public_html/application/libraries/PEAR/PEAR.php) [785]
+Error Code: 246a84
+Stack trace:
+#0 /home/threatfo/public_html/application/libraries/PEAR/PEAR.php(785): each(Array)
+#1 (unknown file)(0): _PEAR_call_destructors()
+#2 {main}
+
+2019-09-05T08:10:54+00:00 WARN (4): [8192] The each() function is deprecated. This message will be suppressed on further calls (/home/threatfo/public_html/application/libraries/PEAR/PEAR.php) [785]
+Error Code: 7bb91c
+Stack trace:
+#0 /home/threatfo/public_html/application/libraries/PEAR/PEAR.php(785): each(Array)
+#1 (unknown file)(0): _PEAR_call_destructors()
+#2 {main}
+
+2019-09-13T10:55:39+00:00 WARN (4): [8192] The each() function is deprecated. This message will be suppressed on further calls (/home/threatfo/public_html/application/libraries/PEAR/PEAR.php) [785]
+Error Code: c86cee
+Stack trace:
+#0 /home/threatfo/public_html/application/libraries/PEAR/PEAR.php(785): each(Array)
+#1 (unknown file)(0): _PEAR_call_destructors()
+#2 {main}
+
+2019-09-13T13:05:41+00:00 WARN (4): [8192] The each() function is deprecated. This message will be suppressed on further calls (/home/threatfo/public_html/application/libraries/PEAR/PEAR.php) [785]
+Error Code: e11de5
+Stack trace:
+#0 /home/threatfo/public_html/application/libraries/PEAR/PEAR.php(785): each(Array)
+#1 (unknown file)(0): _PEAR_call_destructors()
+#2 {main}
+
+2019-09-13T14:14:06+00:00 WARN (4): [8192] The each() function is deprecated. This message will be suppressed on further calls (/home/threatfo/public_html/application/libraries/PEAR/PEAR.php) [785]
+Error Code: e7fcea
+Stack trace:
+#0 /home/threatfo/public_html/application/libraries/PEAR/PEAR.php(785): each(Array)
+#1 (unknown file)(0): _PEAR_call_destructors()
+#2 {main}
+
+2019-09-13T14:24:04+00:00 WARN (4): [8192] The each() function is deprecated. This message will be suppressed on further calls (/home/threatfo/public_html/application/libraries/PEAR/PEAR.php) [785]
+Error Code: 7975e3
+Stack trace:
+#0 /home/threatfo/public_html/application/libraries/PEAR/PEAR.php(785): each(Array)
+#1 (unknown file)(0): _PEAR_call_destructors()
+#2 {main}
+

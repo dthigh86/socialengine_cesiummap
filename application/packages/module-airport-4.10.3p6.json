@@ -1,0 +1,778 @@
+{
+  "type": "module",
+  "name": "airport",
+  "version": "4.10.3p6",
+  "revision": null,
+  "path": "application\/modules\/Airport",
+  "repository": null,
+  "sku": null,
+  "date": "Fri, 13 Sep 2019 14:23:37 +0000",
+  "title": "SD - Airports",
+  "description": "SD - Airports",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Stars Developer"
+  ],
+  "meta": {
+    "date": "Fri, 13 Sep 2019 14:23:37 +0000",
+    "title": "SD - Airports",
+    "description": "SD - Airports",
+    "developer": null,
+    "authors": [
+      "Stars Developer"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Airport": {
+      "type": "directory",
+      "path": "application\/modules\/Airport",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 930,
+          "sha1": "34eb212aca0744b7b4e40792a87699e72a6a00c2"
+        },
+        {
+          "path": "Api\/Reaction.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1771,
+          "sha1": "840028aa2fffac708e514e2f674629f6d84323f9"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 370,
+          "sha1": "50af73970ed7b60fb68ce00f579636d28626b026"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminManageController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5874,
+          "sha1": "8b9326935ff648cc7a0c453261232bfb22f86fa4"
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5862,
+          "sha1": "e47658bd0495a6d914e6dc8f3f54c5f5e6e9281a"
+        },
+        {
+          "path": "controllers\/ExpectController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4243,
+          "sha1": "5cc2abdf3fc408400b05121b262bf1d927971dd4"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1631,
+          "sha1": "2bda083b8696711dfb1c4b8cb451bb303de52afd"
+        },
+        {
+          "path": "controllers\/ProfileController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1160,
+          "sha1": "952b71b3b90c9d2385078f76411caeaf1568fa90"
+        },
+        {
+          "path": "controllers\/ThreatController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4276,
+          "sha1": "c07ecb4cf8e39957fd432f73e907b3d5f06ad179"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/accident.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 368,
+          "sha1": "83e33816ec47e84fb792c08a7961f219d77d6794"
+        },
+        {
+          "path": "externals\/images\/crash.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 376,
+          "sha1": "6ade35b49c6c6f3f0e53ce777332f45d9f99c87d"
+        },
+        {
+          "path": "externals\/images\/incident.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 328,
+          "sha1": "7ae82d0310d29c67cb51e5a0409c8a24ae29dfb1"
+        },
+        {
+          "path": "externals\/images\/incident_off.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 329,
+          "sha1": "cf60a90ba45eb1d1628f48e0980caa0a55d3ba95"
+        },
+        {
+          "path": "externals\/images\/news_off.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 372,
+          "sha1": "c2ae9f82b13d051231c7be987401f38235d51993"
+        },
+        {
+          "path": "externals\/images\/report.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 368,
+          "sha1": "156d44d1388ea2c046a9f39291e2918462351a97"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/core.js",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2083,
+          "sha1": "afbd16153591ee25e340172f1e89d9ff3dc5d491"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Airport",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Airport\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2442,
+          "sha1": "2e00f7c197dd541e2d17d76ae5f2719f52f4dc35"
+        },
+        {
+          "path": "Form\/Admin\/Airport\/Edit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 482,
+          "sha1": "04caef2883385731520eabfbdb0b9084c428c27a"
+        },
+        {
+          "path": "Form\/Admin\/Airport\/Import.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1227,
+          "sha1": "5177ae802554b10f9ca1a20e9f8babcd4d9ba471"
+        },
+        {
+          "path": "Form\/Admin\/Settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings\/Level.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1877,
+          "sha1": "8d17922d450b896ce0c273d62a19410ad8e2fc92"
+        },
+        {
+          "path": "Form\/Expect",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Expect\/Delete.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1066,
+          "sha1": "39be0c2e4de9ba74a5ce5ba65fcf16f19d8ca33f"
+        },
+        {
+          "path": "Form\/Threat",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Threat\/Delete.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1066,
+          "sha1": "6a6e8633b939df6eb0b406be3a39e6ec3589be94"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/Airport.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4191,
+          "sha1": "1251b72306007604b8d91769d779535b61337e98"
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Airports.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4235,
+          "sha1": "8b4ff7ca7c30fcc85584240e60aab2872d77bec4"
+        },
+        {
+          "path": "Model\/DbTable\/Expects.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 258,
+          "sha1": "5d25cd5f71772300fad4bf81426bd8593bd926af"
+        },
+        {
+          "path": "Model\/DbTable\/Threats.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 3769,
+          "sha1": "4737c84c832b1094390173977b82a4622804d1fa"
+        },
+        {
+          "path": "Model\/DbTable\/Votes.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5477,
+          "sha1": "248ba0f3fdb789bfa9955c34e28b96cfb56f806b"
+        },
+        {
+          "path": "Model\/Expect.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2686,
+          "sha1": "fd30433e0a17161c4ff6d1d154c714aaeb47b196"
+        },
+        {
+          "path": "Model\/Threat.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2686,
+          "sha1": "dc2f4341e5eebeed0f3ec834ec7c8a49df722ba2"
+        },
+        {
+          "path": "Model\/Vote.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 241,
+          "sha1": "b2af380144243faa2a6c9970de13eb52ec0597eb"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1376,
+          "sha1": "8365c9ce01de69c87f6c9ac475d7363b7186d0ea"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2769,
+          "sha1": "5b9ad860a45cccc90a3137512930f4b855f5114e"
+        },
+        {
+          "path": "settings\/my-install.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 184,
+          "sha1": "171c78abe19b9e69713c2181f6736fd187f326c1"
+        },
+        {
+          "path": "settings\/my-upgrade-4.10.3p2-4.10.3p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1443,
+          "sha1": "c8653940d0257e7ba58ef1e7b76ab72aa6a2cf9e"
+        },
+        {
+          "path": "settings\/my-upgrade-4.10.3p3-4.10.3p4.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 821,
+          "sha1": "86680a4871d91d6dece2d57986f6ecc89ba51304"
+        },
+        {
+          "path": "settings\/my-upgrade-4.10.3p4-4.10.3p5.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 517,
+          "sha1": "8e622d22670656a93bcd3fb8dcec855132f13494"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2237,
+          "sha1": "b1c19fc87c8afeacd088ceccc04d5ed247e70ed8"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/create.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 971,
+          "sha1": "9e3e8726bb25c2f003ede68c04e9871c2098ef31"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 942,
+          "sha1": "4dc8dc96c16bd6db00e8600bd1e666e324a38542"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 971,
+          "sha1": "9e3e8726bb25c2f003ede68c04e9871c2098ef31"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/import.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 166,
+          "sha1": "319c840637782308d78902fc449914c2e644e5f0"
+        },
+        {
+          "path": "views\/scripts\/admin-manage\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 4745,
+          "sha1": "ae0d90e5c1ed27a68d46efad4aa00b230b4ae96c"
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/level.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 935,
+          "sha1": "f85a0c1c8d05d21af86ad5992c6085ba70132c4c"
+        },
+        {
+          "path": "views\/scripts\/expect",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/expect\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 474,
+          "sha1": "973dd5bb2b4f9267e7411dfff5a9cd195eb02ab5"
+        },
+        {
+          "path": "views\/scripts\/expect\/view.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 129,
+          "sha1": "20ecdaf6b76ac41fe8585b560897e8de8de23c03"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 80,
+          "sha1": "552eafeb44692b25537e80e74dd6a78fd3f532a3"
+        },
+        {
+          "path": "views\/scripts\/profile",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/profile\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 129,
+          "sha1": "20ecdaf6b76ac41fe8585b560897e8de8de23c03"
+        },
+        {
+          "path": "views\/scripts\/threat",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/threat\/delete.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 474,
+          "sha1": "b16ebe882e50a3ada635964f76a2a0218af0e0d0"
+        },
+        {
+          "path": "views\/scripts\/threat\/view.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 129,
+          "sha1": "20ecdaf6b76ac41fe8585b560897e8de8de23c03"
+        },
+        {
+          "path": "views\/scripts\/_expectRow.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2777,
+          "sha1": "b1e552ce3d81da548136ad075a03e53ca1d94520"
+        },
+        {
+          "path": "views\/scripts\/_threatRow.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2798,
+          "sha1": "0cacb2baf3ec04234cacb41c7e9ea3b86fe441f9"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/home-page",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/home-page\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 2018,
+          "sha1": "e476f48cf8e99e2de9805d6493a2421ef92db0af"
+        },
+        {
+          "path": "widgets\/home-page\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 5099,
+          "sha1": "60ec6d0c27fcb5c76596491626d4642734c9f992"
+        },
+        {
+          "path": "widgets\/sd-map",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sd-map\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 356,
+          "sha1": "123512994ab3f7c1d259264f4dcdba6e2cfe40a0"
+        },
+        {
+          "path": "widgets\/sd-map\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1925,
+          "sha1": "18a818e90a41f0f8f915dbbe39ab0d27ccf5b235"
+        },
+        {
+          "path": "widgets\/sd-past-incident-accidents",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sd-past-incident-accidents\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 1427,
+          "sha1": "4f1a1eec33b3c9128344840ddfd44b68b65fd892"
+        },
+        {
+          "path": "widgets\/sd-past-incident-accidents\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 9421,
+          "sha1": "83dbd8c23a4c80f606346661c45394093f61f891"
+        },
+        {
+          "path": "widgets\/sd-threats",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 0,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/sd-threats\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 811,
+          "sha1": "229772e4b98cf4f3050ffd3a72f2dd16c170bcb4"
+        },
+        {
+          "path": "widgets\/sd-threats\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 12438,
+          "sha1": "07560fa774425c11ac4fa3cc947535558a23c59d"
+        }
+      ]
+    },
+    "application\/languages\/en\/airport.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/airport.csv",
+      "structure": {
+        "path": "airport.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0666",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

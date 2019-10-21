@@ -1,0 +1,73 @@
+{
+  "type": "widget",
+  "name": "sd-landing-page",
+  "version": "4.10.4",
+  "revision": null,
+  "path": "application\/widgets\/sd-landing-page",
+  "repository": null,
+  "sku": null,
+  "date": "Thu, 29 Aug 2019 07:41:50 +0000",
+  "title": "SD Landing Page",
+  "description": "SD Landing Page",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Stars Developer"
+  ],
+  "meta": {
+    "date": "Thu, 29 Aug 2019 07:41:50 +0000",
+    "title": "SD Landing Page",
+    "description": "SD Landing Page",
+    "developer": null,
+    "authors": [
+      "Stars Developer"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/sd-landing-page": {
+      "type": "directory",
+      "path": "application\/widgets\/sd-landing-page",
+      "structure": [
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 135,
+          "sha1": "21a514c1281393b1f4ef19e343516b5803ccc00e"
+        },
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 42,
+          "sha1": "4dd9982223d81c5f46e342077ff3d122403adf54"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 693,
+          "sha1": "64de4aa6e4445062fa4fb5755026ce2449b12d9e"
+        }
+      ]
+    }
+  }
+}

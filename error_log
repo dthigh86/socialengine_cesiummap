@@ -1,0 +1,62 @@
+[30-Aug-2019 06:48:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 06:48:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 06:48:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 06:48:48 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 06:49:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 06:49:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 429
+[30-Aug-2019 06:49:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 06:55:03 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 06:55:03 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 07:01:30 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 07:01:30 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 07:01:39 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 07:01:39 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 07:07:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 07:07:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 07:07:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[30-Aug-2019 07:07:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[05-Sep-2019 10:25:04 UTC] PHP Fatal error:  Uncaught Zend_Db_Adapter_Mysqli_Exception: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/threatfo/public_html/application/libraries/Zend/Db/Adapter/Mysqli.php:340
+Stack trace:
+#0 /home/threatfo/public_html/application/libraries/Zend/Db/Adapter/Abstract.php(460): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/threatfo/public_html/application/modules/Core/Bootstrap.php(124): Zend_Db_Adapter_Abstract->query('SET time_zone =...')
+#2 /home/threatfo/public_html/application/libraries/Engine/Application/Bootstrap/Abstract.php(256): Core_Bootstrap->_initDb()
+#3 /home/threatfo/public_html/application/libraries/Engine/Application/Bootstrap/Abstract.php(207): Engine_Application_Bootstrap_Abstract->_executeResource('db')
+#4 /home/threatfo/public_html/application/libraries/Engine/Application/Bootstrap/Abstract.php(150): Engine_Application_Bootstrap_Abstract->_bootstrap('db')
+#5 /home/threatfo/public_html/application/libraries/Engine/Application.php(149): Engine_Application_Bootstr in /home/threatfo/public_html/application/libraries/Zend/Db/Adapter/Mysqli.php on line 340
+[06-Sep-2019 10:49:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[06-Sep-2019 10:49:32 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[06-Sep-2019 11:46:39 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[06-Sep-2019 11:50:35 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[06-Sep-2019 11:55:12 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[06-Sep-2019 11:56:51 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[06-Sep-2019 11:57:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 429
+[06-Sep-2019 11:57:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[06-Sep-2019 11:57:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[06-Sep-2019 12:42:43 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[16-Sep-2019 11:42:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 429
+[16-Sep-2019 11:43:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[16-Sep-2019 11:43:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[19-Sep-2019 10:09:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[19-Sep-2019 10:09:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[19-Sep-2019 10:10:26 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 429
+[19-Sep-2019 10:10:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[19-Sep-2019 10:10:27 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[19-Sep-2019 10:10:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[19-Sep-2019 10:10:37 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[20-Sep-2019 12:53:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[20-Sep-2019 12:53:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[23-Sep-2019 09:05:51 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[23-Sep-2019 09:05:51 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[23-Sep-2019 09:20:04 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 429
+[24-Sep-2019 07:05:43 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 07:05:43 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:07:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:07:36 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:07:43 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:07:43 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:44:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:44:14 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:58:50 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:58:50 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:58:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795
+[24-Sep-2019 10:58:58 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/threatfo/public_html/sd-adminer.php on line 795

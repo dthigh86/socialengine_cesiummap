@@ -1,0 +1,73 @@
+{
+  "type": "widget",
+  "name": "sd-mini-menu",
+  "version": "4.9.4",
+  "revision": null,
+  "path": "application\/widgets\/sd-mini-menu",
+  "repository": null,
+  "sku": null,
+  "date": "Fri, 30 Aug 2019 04:32:42 +0000",
+  "title": "SD Mini Menu",
+  "description": "SD Mini Menu",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Stars Developer"
+  ],
+  "meta": {
+    "date": "Fri, 30 Aug 2019 04:32:42 +0000",
+    "title": "SD Mini Menu",
+    "description": "SD Mini Menu",
+    "developer": null,
+    "authors": [
+      "Stars Developer"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/sd-mini-menu": {
+      "type": "directory",
+      "path": "application\/widgets\/sd-mini-menu",
+      "structure": [
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 766,
+          "sha1": "1ef20b4af2ba4a506d34994f3fe0c9f72df23b68"
+        },
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 10279,
+          "sha1": "925c505f90fadb169694974ac10f0013237c021f"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 667,
+          "sha1": "410a16cbc20f19ffad8fec8c98cbeafbd71b914a"
+        }
+      ]
+    }
+  }
+}

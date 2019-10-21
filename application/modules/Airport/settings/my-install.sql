@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `engine4_core_modules` (`name`, `title`, `description`, `version`, `enabled`, `type`) VALUES  ('airport', 'SD - Airports', 'SD - Airports', '4.10.3p6', 1, 'extra') ;

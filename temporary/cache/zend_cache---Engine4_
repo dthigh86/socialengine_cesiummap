@@ -1,0 +1,136 @@
+a:2:{i:0;s:7500:"
+  <div id='user_signup_popup'>
+    <div class="close_icon_container" onclick="parent.Smoothbox.close();">
+      <i class="fa fa-times" aria-hidden="true" ></i>
+    </div>
+    
+<script type="text/javascript">
+  function skipForm() {
+    document.getElementById("skip").value = "skipForm";
+    $('SignupForm').submit();
+  }
+  function finishForm() {
+    document.getElementById("nextStep").value = "finish";
+  }
+</script>
+
+<div class="sd-signup-form">
+    
+<style>
+#signup_account_form #name-wrapper {
+  display: none;
+}
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
+  window.addEvent('load', function() {
+    if( $('username') && $('profile_address') ) {
+      $('profile_address').innerHTML = $('profile_address')
+        .innerHTML
+        .replace('yourname',
+          '<span id="profile_address_text">yourname</span>');
+
+      $('username').addEvent('keyup', function() {
+        var text = 'yourname';
+        if( this.value != '' ) {
+          text = this.value;
+        }
+        
+        $('profile_address_text').innerHTML = text.replace(/[^a-z0-9]/gi,'');
+      });
+      // trigger on page-load
+      if( $('username').value.length ) {
+          $('username').fireEvent('keyup');
+      }
+    }
+  });
+//]]>
+</script>
+
+<form id="signup_account_form" enctype="application/x-www-form-urlencoded" class="global_form" action="/signup" method="post"><div><div><h3>Register</h3>
+<div class="form-elements">
+<div id="name-wrapper" class="form-wrapper"><div id="name-label" class="form-label"><label for="name" class="optional">Name</label></div>
+<div id="name-element" class="form-element">
+<input type="text" name="name" id="name" value="" class="signup-name"></div></div>
+<div id="first_name-wrapper" class="form-wrapper"><div id="first_name-label" class="form-label"><label for="first_name" class="required">First Name</label></div>
+<div id="first_name-element" class="form-element">
+<input type="text" name="first_name" id="first_name" value="" class="first-name" tabindex="1"></div></div>
+<div id="last_name-wrapper" class="form-wrapper"><div id="last_name-label" class="form-label"><label for="last_name" class="required">Last Name</label></div>
+<div id="last_name-element" class="form-element">
+<input type="text" name="last_name" id="last_name" value="" class="last-name" tabindex="2"></div></div>
+<div id="2xHyGP0Myo-wrapper" class="form-wrapper"><div id="2xHyGP0Myo-label" class="form-label"><label for="2xHyGP0Myo" class="required">Email Address</label></div>
+<div id="2xHyGP0Myo-element" class="form-element">
+<input type="email" name="2xHyGP0Myo" id="2xHyGP0Myo" value="" class="text" autofocus="autofocus" tabindex="3">
+<p class="hint">You will use your email address to login.</p></div></div>
+<div id="password-wrapper" class="form-wrapper"><div id="password-label" class="form-label"><label for="password" class="required">Password</label></div>
+<div id="password-element" class="form-element">
+<input type="password" name="password" id="password" value="" tabindex="4">
+<p class="hint">Passwords must be at least 6 characters in length.</p></div></div>
+<div id="passconf-wrapper" class="form-wrapper"><div id="passconf-label" class="form-label"><label for="passconf" class="required">Password Again</label></div>
+<div id="passconf-element" class="form-element">
+<input type="password" name="passconf" id="passconf" value="" tabindex="5">
+<p class="hint">Enter your password again for confirmation.</p></div></div>
+<div id="terms-wrapper" class="form-wrapper"><div id="terms-label" class="form-label">&nbsp;</div><div id="terms-element" class="form-element">
+<input type="hidden" name="terms" value=""><input type="checkbox" name="terms" id="terms" value="1" tabindex="6">
+<label class="null" for="terms">I have read and agree to the <a target="_blank" href="/help/terms">terms of service</a>.</label></div></div>
+<div id="submit-wrapper" class="form-wrapper"><div id="submit-label" class="form-label">&nbsp;</div><div id="submit-element" class="form-element">
+<button name="submit" id="submit" type="submit" tabindex="7">Join now</button></div></div>
+
+<input type="hidden" name="profile_type" value="1" id="profile_type">
+
+<input type="hidden" name="language" value="English" id="language">
+
+<input type="hidden" name="email" value="" id="email">
+
+<input type="hidden" name="email_field" value="MnhIeUdQME15bw==" id="email_field"></div></div></div></form></div>
+  </div>
+  <div id='user_auth_popup'>
+    <div class="close_icon_container" onclick="parent.Smoothbox.close();">
+      <i class="fa fa-times" aria-hidden="true" ></i>
+    </div>
+    <form id="user_form_login" enctype="application/x-www-form-urlencoded" class="global_form" action="/login" method="post"><div><div><h3>Member log in</h3>
+<p class="form-description">If you already have an account, please enter your details below. If you don't have one yet, please <a href='/signup'>sign up</a> first.</p>
+<div class="form-elements">
+<div id="UKKNoRJsvb-wrapper" class="form-wrapper"><div id="UKKNoRJsvb-label" class="form-label"><label for="UKKNoRJsvb" class="required">Email Address</label></div>
+<div id="UKKNoRJsvb-element" class="form-element">
+<input type="email" name="UKKNoRJsvb" id="UKKNoRJsvb" value="" class="text" placeholder="Email Address" tabindex="2351" autofocus="autofocus"></div></div>
+<div id="password-wrapper" class="form-wrapper"><div id="password-label" class="form-label"><label for="password" class="required">Password</label></div>
+<div id="password-element" class="form-element">
+<input type="password" name="password" id="password" value="" placeholder="Password" tabindex="2352"></div></div>
+<div id="submit-wrapper" class="form-wrapper"><div id="submit-label" class="form-label">&nbsp;</div><div id="submit-element" class="form-element">
+<button name="submit" id="submit" type="submit" tabindex="2353">Log in</button></div></div>
+<div class="form-wrapper" id="loginoptions-wrapper"><fieldset id="fieldset-loginoptions">
+<div id="remember-wrapper" class="form-wrapper"><div class="form-label" id="remember-label">&nbsp;</div>
+<div id="remember-element" class="form-element">
+<input type="hidden" name="remember" value=""><input type="checkbox" name="remember" id="remember" value="1" tabindex="2354">
+<label for="remember" class="optional">Remember Me</label></div></div>
+<div id="forgot-wrapper" class="form-wrapper"><div id="forgot-label" class="form-label">&nbsp;</div>
+<div id="forgot-element" class="form-element"><span><a href='/user/auth/forgot'>Forgot Password?</a></span></div></div></fieldset></div>
+
+<input type="hidden" name="return_url" value="64-Lw==" id="return_url">
+
+<input type="hidden" name="email" value="" id="email">
+
+<input type="hidden" name="email_field" value="VUtLTm9SSnN2Yg==" id="email_field"></div></div></div></form>  </div>
+
+<script type='text/javascript'>
+  if( !DetectMobileQuick() && !DetectIpad() ) {
+    en4.core.runonce.add(function() {
+      var setPopupContent = function (event, contentId) {
+        event.stop();
+        Smoothbox.open($(contentId).get('html'));
+        en4.core.reCaptcha.render();
+        $('TB_window').addClass('signup_login_popup_wrapper');
+        Smoothbox.instance.doAutoResize();
+      };
+              $$('.user_signup_link').addEvent('click', function(event) {
+          setPopupContent(event, 'user_signup_popup');
+        });
+                    $$('.user_auth_link').addEvent('click', function(event) {
+          setPopupContent(event, 'user_auth_popup');
+        });
+          });
+  }
+</script>
+";i:1;N;}
